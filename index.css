@@ -1,0 +1,130 @@
+body {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 700px;
+    height: 800px;
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+
+main {
+    background-image: url(img/5.jpg);
+    border-radius: 15px;
+    height: 800px;
+}
+
+section {
+    background-color: hsla(0, 0%, 100%, 0.581);
+    height: 800px;
+    position: relative;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 15px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#increment-btn:hover, #increment-btn:focus {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out 0.5ms;
+}
+
+#increment-btn:active {
+    background-color: rgba(138, 0, 0, 0.375);
+    transition: all 0.3ms ease-in-out 0.5ms;
+}
+
+#substract-btn {
+    background: rgb(138, 0, 0);
+    background-color: green;
+}
+
+#substract-btn:hover, #substract-btn:focus {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out 0.5ms;
+}
+
+#substract-btn:active {
+    background-color: rgba(0, 138, 0, 0.375);
+    transition: all 0.3ms ease-in-out 0.5ms;
+}
+
+#save-btn {
+    background: blue;
+    width: 78%;
+}
+
+#save-btn:hover, #save-btn:focus {
+    font-size: 25px;
+    transition: all 0.3s ease-in-out 0.5ms;
+}
+
+#save-btn:active {
+    background-color: rgba(0, 0, 255, 0.375);
+    transition: all 0.3ms ease-in-out 0.5ms;
+}
+
+#reset-btn {
+    background:gray;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    margin-right: 50px;
+}
+
+#reset-btn:hover, #reset-btn:focus {
+    font-size: 25px;
+    transition: all 0.3s ease-in-out 0.5ms;
+}
+
+#reset-btn:active {
+    background-color: rgba(128, 128, 128, 0.375);
+    transition: all 0.3ms ease-in-out 0.5ms;
+}
+
+p {
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.729);
+    margin: 10px 50px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        margin: 0;
+        width: 100%;
+    }
+
+    main {
+        background-image: url(img/5.jpg);
+    }
+}
